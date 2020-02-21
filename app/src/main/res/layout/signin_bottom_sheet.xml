@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login your Account"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/phoneNumberEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number here"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:padding="12.5dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password here"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:padding="12.5dp"
+        android:background="@drawable/edit_text_shape"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:inputType="numberPassword"/>
+    <Button
+        android:id="@+id/logInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_shape"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot your password"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/colorSignUp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account"
+        android:paddingBottom="5dp"
+        android:gravity="center"/>
+
+</LinearLayout>

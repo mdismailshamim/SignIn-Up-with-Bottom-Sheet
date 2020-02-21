@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome back"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name here"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:padding="12.5dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
+    <EditText
+        android:id="@+id/et_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number here"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_shape"
+        android:padding="12.5dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password here"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:padding="12.5dp"
+        android:background="@drawable/edit_text_shape"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        android:imeOptions="actionDone"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:background="@drawable/sign_in_button_shape"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an Account Login"
+        android:gravity="center"
+        android:textColor="@color/colorSignUp"/>
+
+</LinearLayout>
